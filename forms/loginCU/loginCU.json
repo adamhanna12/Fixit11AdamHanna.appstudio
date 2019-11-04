@@ -27,6 +27,33 @@
         "Elements", 
         "btnLogin.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "loginCU", 
+        "Elements", 
+        "inptPassword.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "loginCU", 
+        "Elements", 
+        "lblLogin.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "loginCU", 
+        "Elements", 
+        "btnNextForm.json"
+      ]
     }
   ], 
   "class": "", 
@@ -43,7 +70,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "loginCU.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
