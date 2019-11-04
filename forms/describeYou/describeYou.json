@@ -27,6 +27,24 @@
         "Elements", 
         "rdoPersonType.json"
       ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "describeYou", 
+        "Elements", 
+        "btnNextForm3.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "describeYou", 
+        "Elements", 
+        "lblResponse1.json"
+      ]
     }
   ], 
   "class": "", 

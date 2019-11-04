@@ -16,7 +16,34 @@
         "forms", 
         "favFoods", 
         "Elements", 
-        "Listgroup1.json"
+        "btnNextForm1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "favFoods", 
+        "Elements", 
+        "lgFoods.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "favFoods", 
+        "Elements", 
+        "lblResults.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "favFoods", 
+        "Elements", 
+        "lblHeader.json"
       ]
     }
   ], 
@@ -34,7 +61,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "favFoods.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
